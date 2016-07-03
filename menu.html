@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<!--Dana Ottaviani
+    12-6-2015
+    CS 275
+    menu.html-->
+     
+<html>
+<head>
+   <meta charset="UTF-8">
+   <title>Coffee House</title>
+   <link rel="stylesheet" href="design.css">
+</head>
+
+<body>
+  <div id="order">
+    <header><h1>Insert Message</h1></header> <!--A personalized message with the user's first name will show-->
+    <form action="results.html" id="choices" onsubmit="return orderComplete()">
+        
+       <input type="checkbox" name="coffee" value="Espresso">Espresso <span id="Espresso">$3.00</span> <br><br>
+        
+       <input type="checkbox" name="coffee" value="Latte">Latte <span id="Latte">$2.95</span> <br><br>
+       
+       <input type="checkbox" name="coffee" value="Cappuccino">Cappuccino <span id="Cappuccino">$2.25</span> <br><br>
+        
+       <input type="checkbox" name="coffee" value="Mochachino">Mochachino <span id="Mochachino">$3.95</span> <br><br>
+        
+       <input type="checkbox" name="coffee" value="Americano">Americano <span id="Americano">$2.00</span> <br><br>
+        
+       <input type="checkbox" name="coffee" value="Vienna">Vienna <span id="Vienna">$2.50</span> <br><br>
+        
+       <input type="submit" value="submit">
+        
+    </form>
+  </div>
+<script src="info2.js"></script>
+</body>
+</html>
