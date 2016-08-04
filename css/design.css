@@ -3,17 +3,40 @@
   CS 275
   design.css*/
 
-body{
-  background-image: url("../images/coffee-table.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
+
+
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+  body{
+    background-color: brown;
+  } 
+
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  body{
+    background-color: brown;
+  } 
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  body{
+    background-image: url("../images/coffee-table.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
 }
 
 #order{
   background-color: navajowhite;
   margin: auto;
-  margin-top: 10%;
-  width: 440px;
+  margin-top: 5%;
+  width: 50rem;
   padding: 20px;
   padding-right: 5px;
   padding-top: 5px;
@@ -27,7 +50,7 @@ body{
   background-color: #b3cccc;
   margin: auto;
   margin-top: 10px;
-  width: 440px;
+  width: 50rem;
   padding: 20px;
   padding-top: 5px;
   text-align: center;
