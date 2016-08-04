@@ -3,23 +3,32 @@
   CS 275
   design.css*/
 
-body {background-image: url(images/coffee-table.jpg);
-      background-repeat: no-repeat;
-      background-size: cover;}
+body{
+  background-image: url("../images/coffee-table.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
-#order {background-color: navajowhite;
-        margin-left: 35%; 
-        margin-top: 10%;
-        width: 440px;
-        padding: 20px;
-        padding-right: 5px;
-        padding-top: 5px;}
+#order{
+  background-color: navajowhite;
+  margin: auto;
+  margin-top: 10%;
+  width: 440px;
+  padding: 20px;
+  padding-right: 5px;
+  padding-top: 5px;
+}
 
-#choices {font-size: 20px}
+#choices{
+  font-size: 20px;
+}
 
-#sale {background-color: #b3cccc;
-       margin-left: 35%;
-       margin-top: 10px;
-       width: 440px;
-       padding: 20px;
-       padding-top: 5px}
+#sale{
+  background-color: #b3cccc;
+  margin: auto;
+  margin-top: 10px;
+  width: 440px;
+  padding: 20px;
+  padding-top: 5px;
+  text-align: center;
+}
