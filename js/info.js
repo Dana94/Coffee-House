@@ -25,7 +25,7 @@ function updateStorage()
     {
         document.getElementsByTagName("h1")[0].innerHTML = "Welcome to the Coffee House!";
         
-        document.getElementsByTagName("h1")[1].innerHTML = "Keep an eye out for sales each week!";
+        document.getElementsByTagName("h3")[1].innerHTML = "Keep an eye out for sales each week!";
         
         localStorage.clear(); // clears out all information
     }

@@ -34,6 +34,7 @@
 
 #order{
   background-color: navajowhite;
+  text-align: center;
   margin: auto;
   margin-top: 5%;
   width: 50rem;
@@ -50,8 +51,17 @@
   background-color: #b3cccc;
   margin: auto;
   margin-top: 10px;
-  width: 50rem;
+  /*width: 50rem;*/
   padding: 20px;
   padding-top: 5px;
   text-align: center;
 }
+
+.panel{
+  width: 50rem;
+  background-color: #b3cccc;
+  margin: auto;
+  margin-top: 10px;
+}
+
+
