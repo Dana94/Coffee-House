@@ -5,8 +5,7 @@
     menu.html-->
      
 <html>
-  <head>
-     
+  <head>    
      <title>Coffee House</title>
      <meta charset="UTF-8">
      <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -17,25 +16,35 @@
   <body>
     <div class="container-fluid">
       <div class="row">
-        <div id="order">
-          <header><h1>Insert Message</h1></header> <!--A personalized message with the user's first name will show-->
-          <form action="results.html" id="choices" onsubmit="return orderComplete()">
-              
-             <input type="checkbox" name="coffee" value="Espresso">Espresso <span id="Espresso">$3.00</span> <br><br>
-              
-             <input type="checkbox" name="coffee" value="Latte">Latte <span id="Latte">$2.95</span> <br><br>
-             
-             <input type="checkbox" name="coffee" value="Cappuccino">Cappuccino <span id="Cappuccino">$2.25</span> <br><br>
-              
-             <input type="checkbox" name="coffee" value="Mochachino">Mochachino <span id="Mochachino">$3.95</span> <br><br>
-              
-             <input type="checkbox" name="coffee" value="Americano">Americano <span id="Americano">$2.00</span> <br><br>
-              
-             <input type="checkbox" name="coffee" value="Vienna">Vienna <span id="Vienna">$2.50</span> <br><br>
-              
-             <input type="submit" value="submit">
-              
-          </form>
+        <div class="col-xs-12 col-sm-8 col-sm-offset-2 col-lg-4 col-lg-offset-4">
+          <div id="order">
+            <header><h1>Insert Message</h1></header> <!--A personalized message with the user's first name will show-->
+            <form class="form-horizontal" action="results.html" id="choices" onsubmit="return orderComplete()">
+                  <div class="form-group row">        
+                    <input type="checkbox" name="coffee" value="Espresso">Espresso <span id="Espresso">$3.00</span>
+                  </div>
+                  <div class="form-group row">
+                    <input type="checkbox" name="coffee" value="Latte">Latte <span id="Latte">$2.95</span>
+                  </div>
+                  <div class="form-group row">
+                    <input type="checkbox" name="coffee" value="Cappuccino">Cappuccino <span id="Cappuccino">$2.25</span>
+                  </div>
+                  <div class="form-group row">
+                    <input type="checkbox" name="coffee" value="Mochachino">Mochachino <span id="Mochachino">$3.95</span> 
+                  </div>
+                  <div class="form-group row">
+                    <input type="checkbox" name="coffee" value="Americano">Americano <span id="Americano">$2.00</span>
+                  </div>
+                  <div class="form-group row">
+                    <input type="checkbox" name="coffee" value="Vienna">Vienna <span id="Vienna">$2.50</span>
+                  </div>
+                  <div class="form-group">
+                    <div class="col-sm-offset-4 col-sm-4">
+                      <input type="submit" value="submit"> <!-- class="btn btn-default"> -->
+                    </div>
+                  </div>
+            </form>      
+          </div>
         </div>
       </div>
     </div>

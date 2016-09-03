@@ -2,28 +2,12 @@
   12-9-2015
   CS 275
   design.css*/
-
-
-
-/* Extra small devices (phones, less than 768px) */
-/* No media query since this is the default in Bootstrap */
-
-/* Small devices (tablets, 768px and up) */
-/*@media (min-width: 768px) { 
-  body{
-    background-color: brown;
-  } 
-
-}
-
-/* Medium devices (desktops, 992px and up) */
-/*@media (min-width: 992px) {*/
-  body{
+  
+body{
     background-image: url("../images/red-building-industry-bricks.jpg");
     background-repeat: repeat-y;
-  } 
-/*}
-*/
+} 
+
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
   body{
@@ -36,9 +20,7 @@
 
 #order{
   background-color: navajowhite;
-  margin: auto;
-  /*margin-top: 5%;*/
- 
+  margin: auto; 
   padding: 20px;
   padding-top: 5px;
 }
@@ -49,7 +31,6 @@
 
 #sale{
   background-color: #b3cccc;
-  margin: auto;
   margin-top: 10px;
   /*width: 50rem;*/
   padding: 20px;
@@ -58,10 +39,7 @@
 }
 
 .panel{
-  /*width: 50rem;*/
   background-color: #b3cccc;
-  margin: auto;
-  /*margin-top: 10px;*/
 }
 
 h1{
